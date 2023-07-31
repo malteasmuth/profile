@@ -1,0 +1,81 @@
+body {
+  background-color: #e5e5e5;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-size: 22px;
+  font-family: Verdana, sans-serif;
+  color: #14213D
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 20px 100px;
+  margin: 10px;
+  box-shadow: 2px 3px 3px grey;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 800px;
+}
+
+#profile-pic-round{
+  border-radius: 10px;
+}
+
+.button{
+  background-color: grey;
+  margin: 12px;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.button:hover{
+  background-color: #FF7D00;
+  color: white;
+  box-shadow: 4px 4px -4px grey;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 32px;
+  color: black;
+}
+
+.list-inline > li:hover{
+  color: #FF7D00;
+}
+
+
+@media (max-width: 900px){
+  .container {
+    width: 700 px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    width: 350px;
+  }
+}
